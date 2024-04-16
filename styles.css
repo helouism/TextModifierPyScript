@@ -41,3 +41,13 @@ body {
   
   text-align: center;
 }
+
+/* mobile styling */
+
+@media screen and (max-width: 600px) {
+  .button {
+    font-size: 16px;
+    border-radius: 20%;
+    padding: 3px;
+  }
+}
